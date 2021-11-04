@@ -3,4 +3,8 @@
 const sentenes = [
     {subject : 'Javscript', verb: 'is', object : 'great'},
     {subject : 'Elphants', verb: 'are', object : 'large'},
-]
+];
+//es6 기능  객체 분해
+function say({ subject, verb, object}){
+
+}
