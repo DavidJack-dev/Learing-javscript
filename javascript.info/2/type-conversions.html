@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>형 변환</title>
+</head>
+<body>
+<div>>
+    <span>
+        함수와 연산자에 전달되는 값은 대부분 적절한 자료형으로 자동 변환된다. 이 과저을 "형 변환(type Conversion)"이라고 한다.
+
+    </span>
+</div>
+
+<script>
+    // 문자형으로 변환
+    //     alert 메서드는 매개변수로 문자형을 받기 때문에, alert(value) 에서 value는 문자형이야 한다.
+    //     만약 다른 형의 값을 전달 받으면 이 값은 문자형으로 자동 변환
+    let value = true;
+
+    alert( typeof value ) ; //boolean
+
+    value = String(value); //변수 value엔 문자열 "true"가 저장
+    alert(typeof value); //string
+</script>
+</body>
+</html>
